@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 55px;
+  background: #88bbd6;
+}
+
+.Main {
+  position: absolute;
+  top: 60px;
+}
+
+.NavItemBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.NavItemBox a {
+  color: #30415d;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 35px;
+  background: #e9e9e9;
+}
